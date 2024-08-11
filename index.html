@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Lee Techalon</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  </head>
+  <body oncontextmenu="return false">
+    <div class="main">
+      <audio autoplay loop id="music">
+        <source src="burnup.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <video autoplay loop muted id="video" >
+      <source src="main.mp4" type="video/mp4">
+    </video>
+    <nav>   
+      <input type="checkbox" id="check" onchange="playMusic()">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <div class="title">
+        <img href="event.png" download  src="event.png" alt="logo" width="40px">
+        <img class="logo" src="logoc.png" alt="header">
+      </div>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#Event">Events</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div >
+        <a href="#Event" class="btn" onclick="playMusic() " >Register</a>
+      </div>
+    </nav>
+    <div class="contant" id="home">
+      <div class="sym">
+        <h1>Lee Techalon</h1>
+        <h3>2k24</h3>
+        <h4>A national level technical symposium</h4>
+        <div id="timer"></div>
+      </div>
+    </div>
+    <div class="contant" id="Event">
+      <h3 class="ename">Events For All Departments </h3>
+        <div id="event">
+            <h2 class="etech">Technical Events</h2>
+            <div class="tech">
+                <div class="dept">
+                    <img src="cse.png" alt="cse" class="dlogo">
+                    <h4>CSE/IT/AI&DS</h4>
+                    <h4>🖥️ 𝕃𝕖𝕖 𝕥𝕖𝕔𝕙 𝕊𝕢𝕦𝕒𝕕 📡</h4>
+      
+                      <ol>
+                        <li>Paper Presentation</li>
+                        <li>Technical Quizzz</li>
+                        <li>Code Debugger</li>
+                        <li>Poster Presentation</li>
+                      </ol>
+                      <a href="PAPER PRESENTATION CSE.pdf" download class="learn">Learn more</a>
+                      <a href="https://forms.gle/ETxNb3Z8vyBQKTxTA" class="learn">RegisterNow</a>
+                </div>
+                
+                <div class="dept">
+                    <img src="eee.png" alt="eee" class="dlogo">
+                    <h4>EEE</h4>
+                    <h4>⚡Lee Spark's💥</h4>
+       
+                    <ol>
+                        <li>Paper Presentation</li>
+                        <li>Tech Debate</li>
+                        <li>Projuct Expo</li>
+                        <li>Technical Quiz</li>
+                    </ol>
+                    <a href="PAPER PRESENTATION EEE.pdf" download class="learn">Learn more</a>
+                    <a href="https://forms.gle/4CP9xwwpxSF2ZUz38" class="learn">RegisterNow</a>
+                </div>
+                <div class="dept">
+                    <img src="mech.png" alt="mech" class="dlogo">
+                    <h4>MECH/CIVIL</h4>
+                  <h4>🛠️ Lee MEXTRON ⚙️</h4>
+           
+                    <ol>
+                        <li>Paper Presentation</li>
+                        <li>Technical Quiz</li>
+                        <li>Design and Drafting</li>
+                        <li>Lathe manic</li>
+                    </ol>
+                    <a href="LEE MEXTRON.pdf" download class="learn">Learn more</a>
+                    <a href="https://forms.gle/8G2dujWr51VvyJmf7" class="learn">RegisterNow</a>
+                </div>
+                <div class="dept">
+                  <img src="ece.jpeg" alt="ece" class="dlogo">
+                  <h4>ECE</h4>
+                  <h4>Electrolee</h4>
+                  <ol>
+                      <li>Paper Presentation</li>
+                      <li>Tricky Circuit</li>
+                      <li>Circuit Debugging</li>
+                      <li>Technical Quiz</li>
+                  </ol>
+                  <a href="Event Rules.pdf" download class="learn">Learn more</a>
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSdQdOGNdvsxE-3zyCLTAYq5FEipSCj_xg-soW-i5EOcuTRmkQ/viewform?usp=sf_link" class="learn">RegisterNow</a>
+              </div>
+            </div>
+          
+            <h2 class="etech">
+                Non Technical Events <br>               
+                <p>(Common For All Departments)</p>
+             </h2>
+            <div class="nontech">
+                    <ol >
+                        <li>ad zap</li>
+                        <li>connection</li>
+                        <li>scan to find</li>
+                        <li>Table tennis</li>
+                        <li>film fest</li>
+                        <li>baloon & cups</li>
+                        <li>treasure hunt</li>
+                        <li>Badminton</li>
+                        <li>sign Language</li>
+                        <li>Mini Miltary</li>
+                        <li>tuna topia</li>
+                        <li>carrom</li>
+                        <li>chess</li>
+                        <li>photography</li>
+                        <li>stump throw</li>
+                        <li>free fire</li>
+                    </ol>
+                    <div >
+                      <a href="cse.png" download class="learn">Learn more</a>
+                      
+                    </div>
+            </div>
+           
+    </div>
+    <div class="contant" id="about">
+      <h3 class="ename">ABOUT</h3>
+      <div class="dept">
+        <h6>ABOUT THE TRUST</h6>
+        <p>Vallal P.T.Lee Chengalvaraya Naicker, the illustrious founder of this institution was born on 10th April 1829.
+          The trust was started in the year 1874 in the name of P.T. Lee Chengalvaraya Naicker conceived by benevolent man mainly for the purpose to imparting free education and free medical services for economically weaker and downtrodden society.
+          As per the orders of Hon'ble High Court of Madras, the trust started functioning as a separate entity from the year 1996.
+          Our trust is being administered by a team of nine eminent trustees drawn from different walks of life and who were holding very high positions in the past.
+          Presently the trust board is headed by Hon'ble Justice P.Kalaiyarasan, former Judge, High Court of Madras as Chairman and other trustees duly appointed by Government of Tamil Nadu
+        </p>
+      </div>
+      <div class="dept">
+        <h6>ABOUT THE EVENTS</h6>
+        <p>
+          Welcome to the Symposium on the Lee Techalon, a groundbreaking innovation poised to redefine the landscape of technology as we know it. Today, we gather to delve into the intricacies of this revolutionary advancement, its potential applications, and the profound impact it promises to have on various industries.
+          <h6>Overview of the Lee Techalon:</h6> 
+          </p>  <p>History, Development, and Core Principles.
+          Key Features and Components: Exploring its architecture and functionalities.
+          Technical Specifications: Analyzing its performance metrics and capabilities.
+          Revolutionizing patient care, medical diagnostics, and treatment methodologies.
+          Enhancing safety, efficiency, and sustainability in the automotive and aerospace sectors.
+          Discussing hurdles in development, scalability, and interoperability.
+          <h6>Conclusion:</h6>
+          <p>As we conclude this symposium, it is evident that the Lee Techalon represents a paradigm shift in technological innovation. Its transformative potential across industries and its profound implications for society underscore the importance of continued research, collaboration, and responsible development. Let us embark on this journey with optimism and determination, as we harness the power of the Lee Techalon to shape a brighter future for generations to come. Thank you for your participation.</p>
+    </div>
+      <div class="dept" id="patron">  
+      <h4>CHIEF PATRON</h4>
+      <h5>Thiru Justice P.KALAIYARASAN(Retd)(Chairman)</h5>
+
+      <h4>PATRONS</h4>
+      <h5>V.CHANDRASEKARAN, I.A.S(Retd)</h5>
+      <h5>S.SATHAPILLAI,B.A.,B.L.,</h5>
+      <h5>Dr.R.KANNAIYAN ,M.D.</h5>
+      <h5>Tmt S.RENUKA, M.A.,B.Ed. H.VENKATESH,B.E.,M.E.,</h5>
+      <h5>Dr.B.ARISTATILE,M.Sc.,M.Phil.,Ph.D. M.RAJENDRAN,MCom.,</h5>
+      <h5>M.N.VIJAYASUNDARAM,M.A.,</h5>
+
+      <h4>CO PATRON</h4>
+      <h5>Dr.M.ARULARASU, DIRECTOR</h5>
+      <h5>Dr.P.PALANISAMY PRINCIPAL </h5>
+     </div>  
+    </div>
+      <br><br>
+    <div class="contant" id="contact">
+
+      <h3 class="ename">Contact</h3>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d371197.54834712145!2d79.45445308491838!3d12.863405333274809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52c1b523ce2f0d%3A0xcabb5f750b2baf4c!2sP.T.Lee%20Chengalvaraya%20Naicker%20College%20of%20Engineering%20%26%20Technology!5e0!3m2!1sen!2sin!4v1710845088201!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" class="map" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="staff">
+        <div>
+          <h1>STAFF CO-ORDINATORS</h1>
+          
+          <h3>CSE/IT </h3>
+          <h4> Mr.M.MURALIKRISHNAN - +91 99525 26182</p>
+          <h3>ECE</h3>
+          <h4>Dr.S.YOGESHWARAN - +91 99946 67553</p>
+          <h3>EEE </h3>
+          <h4>Mr.B.RAJAPAGALAVAN - +91 8870974197</p>
+          <h3>MECH</h3>
+          <h4>Mr.R.RAMESH BABU - +91 90253 53068</p>
+          <h3>CIVIL</h3>
+          <h4>Mr.P.SEKER - +91 99402 43903</p>
+          
+            <h1>Contact us our collage</h2>
+            <h4>Email : ptleecncet1226@gmail.com</h4>
+            <h4>website : www.ptleecncet.com </h4>
+            
+        
+        </div>
+        
+           
+        <div>
+          <h1>
+            OVER ALL CO-ORDINATOR 
+          </h1>
+          <h4>VIGNESHWAR - +91 8682875077</h4>
+          <h4>CSE/III year</h4>
+    
+          <h1>STUIDENT CO-ORDINATORS</h1>
+          <h3>CSE/IT/AI&DS </h3>
+          <h4>R.MOHANPRASATH - +91 9345 757510</h4>
+          <h4>A.JEEVAJYOTHI - +91 91505 85817</h4>
+          <h4>M.RAMPRAKASH- +91 9790477328</h4>
+          <h3>EEE</h3>
+          <h4>EZHILARASAN K - +91 90039 85509</h4>
+          <h4></h4>
+          <h3>MECH/CIVIL</h3>
+          <h4>M.VENKATRAMANAN - +91 87789 90718</h4>
+          <h4>G.NAGARAJ - +91 96296 35482</h4>
+          <h3>ECE</h3>
+          <h4>NAVEENRAJADURAI M - +91 9344398299</h4>
+          <h4>MONISHA N - +91 733880034</h4>
+           <h1>Editing and Designing</h1>
+          <h4>JANARTHANAN - +91 9363676846</h4>
+          
+        </div>
+      </div>
+      <footer>
+        © 2024 P.T.Lee.CNCET. All rights reserved.
+      </foote>
+      
+    </div>
+    
+    
+    </div>
+
+
+      <script>
+        document.onkeydown = (e) => {
+    if (e.key == 123) {
+        e.preventDefault();
+    }
+    if (e.ctrlKey && e.shiftKey && e.key == 'I') {
+        e.preventDefault();
+    }
+    if (e.ctrlKey && e.shiftKey && e.key == 'C') {
+        e.preventDefault();
+    }
+    if (e.ctrlKey && e.shiftKey && e.key == 'J') {
+        e.preventDefault();
+    }
+    if (e.ctrlKey && e.key == 'U') {
+        e.preventDefault();
+    }
+};
+     //----------------------------Timer for The symposium---------------------------------- 
+        const targetDate = new Date('2024-03-28T00:00:00');
+            // Update the countdown every second
+            const timer = setInterval(updateCountdown, 1000);
+
+            function updateCountdown() {
+              // Get the current date and time
+              const now = new Date().getTime();
+
+              // Calculate the remaining time
+              const distance = targetDate - now;
+
+              // Check if the target date has passed
+              if (distance < 0) {
+                clearInterval(timer);
+                document.getElementById('timer').innerHTML = 'Countdown expired';
+                return;
+              }
+
+              // Calculate days, hours, minutes, and seconds
+              const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+              const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+              const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+              const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+              // Display the countdown
+              document.getElementById('timer').innerHTML = `${days} <p>D</p> - ${hours} <p>H</p> - ${minutes} <p>M</p> - ${seconds} <p>S</p>`;
+            }
+    //-----------------------------End of the srcipt timer----------------------------------
+        function playMusic() {
+            const music = document.getElementById('music');
+            music.play();
+        }
+    let hasScrolled = false; 
+    function playMusicOnScroll() {
+        window.onscroll = function() {
+            if (!hasScrolled && document.getElementById('music').paused) {
+                document.getElementById('music').play().then(() => {
+                    hasScrolled = true; 
+                }).catch(e => {
+                    console.error("Error playing audio:", e);
+                });
+            }
+        };
+    }
+
+    document.body.addEventListener('click', function enableSound() {
+        document.getElementById('music').play().then(() => {
+            document.body.removeEventListener("click", enableSound); 
+            playMusicOnScroll(); 
+        }).catch(e => {
+            console.error("Could not play audio on first click:", e);
+        });
+    });
+</script>
+  </body>
+</html>

@@ -1,0 +1,377 @@
+@import url("https://fonts.googleapis.com/css?family=Audiowide");
+@font-face {
+  font-family: myfont;
+  src: url(air.ttf);
+}
+@font-face {
+  font-family: font;
+  src: url(DS-DIGIB.TTF);
+}
+  @font-face {
+  font-family: fonts;
+  src: url(pop.otf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Audiowide", sans-serif;
+    text-shadow: 2px 4px 10px deepskyblue;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  body{
+    color:white;
+    max-width: 100vw;
+    background-color: black;
+  }
+
+  nav{
+    position: fixed;
+    backdrop-filter: blur(10px);
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    padding: 0 20px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .btn{
+    border: none;
+    outline: none;
+  }
+  .logo{
+    width:500px;
+  }
+  .title{
+  display: flex;
+  align-items: center;
+}
+#timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:3px;
+    font-size: 30px;
+    backdrop-filter: blur(20px);
+    padding: 30px;
+    margin: 10px;
+    border-radius: 20px;
+    font-family:font;
+    font-weight: bolder;
+    text-align: center;
+  }
+  #timer p{
+    font-size: 24px;
+    
+  }
+  nav ul li{
+    display: inline-block;
+    margin: 0 10px;
+  }
+  nav a{
+    font-size: 16px;
+    padding: 8px 14px;
+    color: white;
+    font-weight: 800;
+    border-radius: 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  nav a.active,
+  nav a:hover,
+  nav a:focus{
+    background:radial-gradient(black 45%,white);
+    transition: .5s;
+  }
+  .checkbtn{
+    font-size: 30px;
+    float: right;
+    line-height: 80px;
+    margin:0 10px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+  #video {
+    position: fixed;
+  right: 0;
+  z-index: -3;
+  opacity: .7;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  }
+  .contant{
+    width: 100vw;
+    height: 100vh;
+    font-size: 40px;
+    border-top:2px solid transparent ;
+    text-align: center;
+  }
+  .etech{
+    font-size: 30px;
+  }
+  #patron h4{
+    font-family: fonts;
+    color: #0fffff;
+  }
+  .sym{
+    display: flex;
+    width: 100vw;
+    height: 100%;
+    font-family: font;
+    color: white;
+    font-size: 5vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .sym h4{
+    font-family:myfont;
+    color:#ff00ff;
+    font-size: 40px;
+    text-shadow: 0 0 20px blue;
+    margin-top: 20px;
+
+  }
+  .sym h1,.sym h3{
+    font-family: myfont;
+  }
+  .tech { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items: center;
+    margin: 30px auto;
+  }
+  .nontech{
+    backdrop-filter: blur(20px);
+    margin: 40px auto;
+    width: 60vw;
+    border-radius: 10px;
+    padding: 20px;
+  } 
+
+.nontech ol {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.nontech ol li{
+  display: flex;
+  justify-content: center;
+}
+  .dept{
+  backdrop-filter:blur(20px);
+  margin:30px auto;
+  padding: 20px;
+  text-align: justify;
+  border-radius: 10px;
+  }
+ 
+  .btn{
+    border: 1px double white;
+    outline: none;
+    padding: 10px 20px;
+    background: none;
+    backdrop-filter:blur(40px);
+    color: white;
+    font-size: 20px;
+    margin-top: 40px;
+    clear: both;
+  }
+  .dept h4,
+  .dept h6{
+    text-align: center;
+    margin: 20px;
+    font-size: myfont;
+    font-weight: 900;
+    font-size: 18px;
+  }
+.dept h5{
+    text-align: center;
+    margin: 20px;
+    font-size: myfont;
+    font-weight: 900;
+    font-size: 12px;
+  }
+  
+  #event  ol li{
+    font-size: 12px;
+    list-style: decimal;
+    color: white;
+    margin: 20px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 20px;
+    text-transform: uppercase;
+  }
+  #about {
+    width: 80vw;
+    z-index: -2;
+    margin :10px auto;
+    border: 2px solid transparent;
+  }
+  #about p{
+    font-size: 16px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    
+  }
+  .ename{
+    font-family: fonts;
+    margin: 100px auto 30px;
+    color: #00ffff;
+  }
+
+.dlogo{
+  width:100px;
+  margin: -60px 70px 0 80px  ;
+  
+  border-radius: 50%;
+}
+.learn
+{
+  padding: 10px;
+  border : 1px double white;
+  font-size: 14px;
+  color: white;
+  margin-bottom: 20px;
+}
+footer{
+  width: 80vw;
+  position: fixed;
+  bottom:0px;
+}
+#contact{
+  backdrop-filter: blur(40px);
+  height: 250vh;
+  margin-top: 100vh;
+}
+.map
+{
+  z-index: 1;
+  width: 80vw;
+  min-height: 10vh;
+}
+.staff{
+  display: flex;
+  flex-wrap: wrap;
+  height: 50vh;
+  align-items: center;
+  font-size: 16px;
+  justify-content: space-evenly;
+}
+.staff h1{
+  font-size: 20px;
+  color:#0fffff;
+  text-shadow: 2px 2px 10px #00ffff;
+  margin-top: 60px;
+}
+.staff h4{
+  font-size: 13px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 14px;
+
+}
+
+footer{
+  bottom: 0;
+  position: fixed;
+  width:100vw;
+  margin-top: 200px;
+  padding: 30px;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+@media (max-width:1220px) {
+  .logo{
+    width:300px;
+  }
+  
+}
+ @media (max-width: 1000px){
+    .checkbtn{
+      display: block;
+      font-size: 20px;
+    }
+    label.logo{
+      font-size: 10px;
+    }
+    .btn{
+      font-size: 10px;
+      outline: none;
+    }
+    ul{
+      position: fixed;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      width: 100%;
+      height: 25vh;
+      color: white;
+      background: rgba(0,0,0,0.7);
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      transition: all .5s;
+    } 
+    #check:checked ~ ul{
+      left: 0;
+    }
+    .sym{
+      font-size: 30px;
+    }
+    .map{
+      height: 200px;
+    }
+    .nontech{
+      width: 90vw;
+    }
+  
+  }
+  @media (max-width: 600px){
+  
+    .logo{
+      width:200px;
+    }
+    .sym h5,.sym h6{
+      font-size: 20px;
+    }
+    ul{
+      position: fixed;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      width: 100%;
+      height: 25vh;
+      color: white;
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      transition: all .5s;
+    } 
+    .nontech {
+      width: 80vw;
+    }
+    .nontech ol{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    #about{
+      height: 160vh;
+    }
+    footer{
+      bottom: 0;
+      font-size: 20px;
+    }
+  }
+  @media (max-width: 400px){
+    .logo{
+      width: 150px;
+    }
+  }
